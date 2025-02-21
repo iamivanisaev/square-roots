@@ -10,6 +10,8 @@ func main() {
 	var b float64
 	var c float64
 
+	fmt.Println("Начало обработки")
+
 	fmt.Println("Реши уравнение")
 	fmt.Println("Введи a:")
 	_, err := fmt.Scan(&a)
@@ -49,4 +51,5 @@ func main() {
 	} else if D < 0 {
 		fmt.Println("Ваше уравнение не имеет корней \nD <0\nD = " + fmt.Sprint(D))
 	}
+	fmt.Println("Конец обработки")
 }
